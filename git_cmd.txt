@@ -1,1 +1,9 @@
-git conifg --global user.name 'wlfcat'
+git --version
+git config --global user.name 'wlfcat'
+git config --global user.email wulongfei.me@hotmail.com
+git config --list
+
+# more ~/.gitconfig 
+[user] 
+name = wlfcat 
+email = wulongfei.me@hotmail.com
