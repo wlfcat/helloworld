@@ -13,7 +13,8 @@ git init fbm-fabric-1.0
 cd fbm-fabric-1.0
 
 克隆仓库
-git clone git clone https://github.com/wlfcat/fbm-fabric-1.0.git
+git clone git@https://github.com/wlfcat/fbm-fabric-1.0.git
+git clone https://github.com/wlfcat/fbm-fabric-1.0.git
 
 
 git status -s
