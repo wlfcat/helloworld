@@ -7,3 +7,26 @@ git config --list
 [user] 
 name = wlfcat 
 email = wulongfei.me@hotmail.com
+
+创建仓库
+git init fbm-fabric-1.0
+cd fbm-fabric-1.0
+
+克隆仓库
+git clone git clone https://github.com/wlfcat/fbm-fabric-1.0.git
+
+
+git status -s
+
+git add 添加文件
+root@fbm:/home/fbm-fabric-1.0# touch 2017-06-22-stone
+root@fbm:/home/fbm-fabric-1.0# git status -s
+?? 2017-06-22-stone
+root@fbm:/home/fbm-fabric-1.0# git add 2017-06-22-stone 
+root@fbm:/home/fbm-fabric-1.0# git status -s
+A  2017-06-22-stone
+root@fbm:/home/fbm-fabric-1.0# git commit -m 'stone'
+[master fe5a915] stone 1 file changed, 0 insertions(+), 0 deletions(-) 
+create mode 100644 2017-06-22-stone
+
+git diff
